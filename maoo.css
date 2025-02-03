@@ -2049,9 +2049,9 @@ textarea.w-input,textarea.w-select {
 }
 
 :root {
-    --bg-color: #2819ff;
+    --bg-color: #00a8ff;
     --text-color: #201a17;
-    --white: white;
+    --white: #feca57;
     --background-color--background-primary\<deleted\|variable-9f6b6bb4-0795-c8ab-f302-bbebab6f2554\>: var(--base-color-neutral--black\<deleted\|variable-419fddc9-288d-5141-33c5-0873c4ce2f53\>);
     --text-color--text-alternate\<deleted\|variable-2688eaeb-df93-32fe-efb9-d54fbd7bd424\>: var(--base-color-neutral--white\<deleted\|variable-248be024-93cf-6ec4-8eec-0e9f047a83ae\>);
     --brand: #2819ff;
@@ -3083,7 +3083,7 @@ figcaption {
     align-items: center;
     height: 5rem;
     padding: 1.2rem 2.75rem 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: box-shadow .2s,transform .2s;
     display: flex;
     position: relative
@@ -3318,7 +3318,7 @@ figcaption {
 
 .section_hero {
     z-index: 3;
-    background-color: #172844;
+    background-color: #00a8ff;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
@@ -4084,7 +4084,8 @@ figcaption {
 
 .how_p {
     max-width: 26rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    text-align: left;
     font-weight: 400
 }
 
