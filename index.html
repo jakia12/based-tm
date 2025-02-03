@@ -14,6 +14,30 @@
   <link href="/maoo.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="style.css" />
   <style>
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px;
+    }
+
+    .socials a {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+    }
+
+    .socials img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 480px) {
+      .socials {
+        gap: 10px;
+      }
+    }
+
     .gallery {
       display: flex;
       flex-direction: column;
@@ -487,8 +511,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
               <div data-w-id="e27d446c-b69e-a65a-0ca9-c2ef44c1738b" style="opacity: 0" class="button-group is-1">
                 <div data-w-id="493174f2-e356-9367-68c5-6a6489543b44" class="_3d-box">
                   <div class="_3d-shadow is-button"></div>
-                  <a href="ape.store" target="_blank" style="color: white;"
-                    class="button w-inline-block">
+                  <a href="ape.store" target="_blank" style="color: white;" class="button w-inline-block">
                     <div>BUY ON APE STORE</div>
                   </a>
                 </div>
@@ -531,46 +554,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
 
               </div>
 
-              <!-- meme section -->
-
-              <div class="gallery">
-                <div class="gallery-row">
-                  <div class="gallery-item">
-                    <img src="./meme/mog.jpg" alt="Photo 1">
-                    <p>MOG style raw art/meme</p>
-                  </div>
-                  <div class="gallery-item">
-                    <img src="./meme/toshi.jpg" alt="Photo 2">
-                    <p>TOSHI style raw art/meme</p>
-                  </div>
-                </div>
-                <div class="gallery-row">
-                  <div class="gallery-item">
-                    <img src="./meme/aerobug.jpg" alt="Photo 3">
-                    <p>AEROBUD style raw art/meme</p>
-                  </div>
-                  <div class="gallery-item">
-                    <img src="./meme/brett.jpg" alt="Photo 4">
-                    <p>BRETT style raw art/meme</p>
-                  </div>
-                </div>
-                <div class="gallery-row">
-                  <div class="gallery-item">
-                    <img src="./meme/ski.jpg" alt="Photo 5">
-                    <p>SKIMASK style raw art/meme</p>
-                  </div>
-                  <div class="gallery-item">
-                    <img src="./meme/elon.jpg" alt="Photo 6">
-                    <p>ELON style raw art/meme</p>
-                  </div>
-                </div>
-                <div class="center-item">
-                  <img src="./meme/doginme.jpg" alt="Photo 7">
-                  <p>DOGINME style raw art/meme</p>
-                </div>
-              </div>
-
-              <!-- <div class="community_wrap">
+              <div style="margin-bottom: 8%;" class="community_wrap">
                 <div data-w-id="56cce09d-5bfc-f8b6-daa3-f61c52bd8212" style="opacity: 0" class="community_left">
 
                   <p class="community_p" style="color: #2e86de;">
@@ -601,7 +585,48 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                     </svg>
                   </div>
                 </div>
-              </div> -->
+              </div>
+
+              <!-- meme section -->
+
+              <div class="gallery">
+                <div class="gallery-row">
+                  <div class="gallery-item">
+                    <img src="./meme/mog.jpg" alt="Photo 1">
+                    <p>MOG style art/meme</p>
+                  </div>
+                  <div class="gallery-item">
+                    <img src="./meme/toshi.jpg" alt="Photo 2">
+                    <p>TOSHI style art/meme</p>
+                  </div>
+                </div>
+                <div class="gallery-row">
+                  <div class="gallery-item">
+                    <img src="./meme/aerobug.jpg" alt="Photo 3">
+                    <p>AEROBUD style art/meme</p>
+                  </div>
+                  <div class="gallery-item">
+                    <img src="./meme/brett.jpg" alt="Photo 4">
+                    <p>BRETT style art/meme</p>
+                  </div>
+                </div>
+                <div class="gallery-row">
+                  <div class="gallery-item">
+                    <img src="./meme/ski.jpg" alt="Photo 5">
+                    <p>SKIMASK DOG style art/meme</p>
+                  </div>
+                  <div class="gallery-item">
+                    <img src="./meme/elon.jpg" alt="Photo 6">
+                    <p>ELON rwa style art/meme</p>
+                  </div>
+                </div>
+                <div class="center-item">
+                  <img src="./meme/doginme.jpg" alt="Photo 7">
+                  <p>DOGINME style art/meme</p>
+                </div>
+              </div>
+
+              
             </div>
           </div>
         </div>
@@ -609,6 +634,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
           <div class="container-large">
             <div class="about_content">
               <div class="h2_wrap tte">ABOUT</div>
+              
               <div data-w-id="53924e96-af49-b0e2-64fc-62fda695f8b2" style="opacity: 0" class="w-layout-grid about_grid">
                 <div class="about_info">
                   <div class="_3d-box is-about">
@@ -617,7 +643,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 310 116"
                           fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
                           <g clip-path="url(#clip0_2609_4314)">
-                            <rect x="-2.91667" y="4.08333" width="315.833" height="315.833" rx="157.917" fill="#feca57"
+                            <rect x="-2.91667" y="4.08333" width="315.833" height="315.833" rx="157.917" fill="#2e86de"
                               stroke="#201A17" stroke-width="5.83333" />
                           </g>
                           <defs>
@@ -639,7 +665,7 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                       </div>
                     </div>
                     <div class="_3d_cream">
-                      <div class="about_wrap" style="background-color: #feca57">
+                      <div class="about_wrap" style="background-color: #2e86de">
                         <div class="svg_mao w-embed">
                           <svg width="265" height="51" viewBox="0 0 265 51" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -664,25 +690,25 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                               </mask>
                               <path
                                 d="M17.4892 46.1924C16.785 46.3008 13.7517 45.9216 13.0475 45.8133C11.91 45.5424 9.36419 44.6758 8.87669 43.5924C8.60586 42.8883 8.76836 42.0216 8.82252 41.2633C9.63502 34.1133 12.235 27.3425 14.0225 20.4091C14.5642 18.4591 15.2142 16.5091 15.8642 14.6133C16.5142 12.7716 17.2184 10.9841 18.1392 9.30495C18.6267 8.38411 19.2225 7.51745 20.035 6.92162C22.0392 5.45912 24.7475 4.86328 27.185 4.86328C29.0809 4.91745 30.9767 5.13411 32.71 5.78412C33.8475 6.21745 34.985 6.92162 35.7434 7.89661C36.4475 8.81745 36.8809 9.90078 37.26 10.9841C38.0184 13.3133 40.4559 26.4758 40.9434 28.8591C41.9184 33.1924 43.5975 37.5799 43.2184 42.0216C43.11 43.1049 42.5684 44.2424 41.7017 44.8924C41.1059 45.3799 40.3475 45.5966 39.5892 45.7049C38.1267 45.9216 33.36 46.4633 32.0059 45.7591C30.6517 45.055 30.435 41.6966 30.2725 40.18C27.3475 39.855 24.4225 39.8549 21.4975 39.9091C21.1725 41.2091 20.035 44.8925 19.0059 45.6508C18.5725 45.9758 18.0309 46.1383 17.4892 46.1924ZM24.2059 24.8508C23.5017 27.6133 22.96 30.3758 22.5267 33.1383C24.9642 32.9758 27.3475 32.8674 29.785 32.9216C29.6225 31.0258 28.5392 21.5466 28.0517 19.7049C27.9434 19.1633 27.6184 18.2966 27.0225 18.3508C26.4809 18.3508 25.9392 19.4341 25.7225 19.9758C25.0184 21.5466 24.585 23.2258 24.2059 24.8508Z"
-                                fill="#005efc" />
+                                fill="#feca57" />
                               <path
                                 d="M55.3085 45.3799C52.6544 46.3008 48.0502 46.7883 46.4252 44.4591C45.9377 43.7008 45.8835 42.6716 45.8835 41.7508C45.8835 40.1799 46.4252 31.1341 46.5877 29.5633C47.1294 23.0091 46.4252 16.4549 46.5877 9.90078C46.5877 8.87161 46.5877 7.73412 47.1294 6.86745C47.4002 6.32578 48.0502 5.94662 48.646 5.78412C50.4335 5.18828 54.8752 5.24245 56.446 6.27162C57.3669 6.92162 57.8544 8.05912 58.071 9.14245C60.1835 7.57162 62.8377 6.54245 65.4919 6.10911C67.2794 5.83828 69.2294 5.83828 70.9627 6.27162C72.2627 6.59661 73.5085 7.13828 74.4835 8.00495C75.3502 8.76328 76.0002 9.84661 76.4335 10.8758C77.3002 12.9883 77.6252 15.4258 77.0294 17.5924C76.4877 19.705 75.2419 21.6549 73.7252 23.2258C75.1335 24.3633 76.271 25.8799 76.9752 27.5049C78.2752 30.5383 78.221 34.3299 76.9752 37.3633C76.4335 38.7716 75.5669 40.0716 74.4835 41.1549C72.696 42.9424 70.2585 44.1883 67.7127 44.7841C64.246 45.6508 60.2377 45.1091 56.9877 43.5924C56.7169 44.3508 56.0669 45.1091 55.3085 45.3799ZM57.9627 15.8049C57.5294 17.5383 57.8544 19.3258 57.8544 21.1133C59.4252 20.9508 61.0502 20.7883 62.5669 20.1924C63.7585 19.705 64.896 19.0008 65.7085 18.0258C66.9544 16.5633 67.171 14.3424 65.546 13.2591C64.5169 12.5549 63.0002 12.5008 61.8085 12.8799C60.6169 13.3133 58.2877 14.6133 57.9627 15.8049ZM57.421 34.8174C59.6419 35.2508 62.1335 35.1424 64.0835 34.1133C66.3585 32.9216 68.146 30.2674 66.9544 27.9924C66.6835 27.3424 66.1419 26.8008 65.546 26.4758C64.6252 25.9341 63.5419 25.6633 62.5127 25.6091C60.8877 25.5008 59.3169 25.7174 57.746 26.0424C57.6377 28.9674 57.421 31.8924 57.421 34.8174Z"
-                                fill="#005efc" />
+                                fill="#feca57" />
                               <path
                                 d="M101.208 45.1091C95.2492 46.6799 88.3701 44.5133 84.3617 39.8008C82.6826 37.8508 81.5993 35.3591 81.0034 32.8674C79.9201 28.3174 80.2993 23.3883 81.4368 18.8383C82.4118 14.8299 84.6868 10.8216 87.9368 8.27578C89.7243 6.86745 91.9993 6.16328 94.2201 5.56745C97.0909 4.86328 100.178 5.29662 102.995 6.10911C106.353 7.08411 109.603 9.35911 111.391 12.3924C113.124 15.2633 113.828 18.7841 113.883 22.1966C113.991 26.4216 113.395 30.8091 111.824 34.7633C110.903 37.1466 109.549 39.4758 107.708 41.2633C105.92 43.0508 103.645 44.4591 101.208 45.1091ZM92.3784 27.6674C93.1368 30.1591 95.3034 32.9758 97.9034 32.5424C99.0951 32.3258 100.124 31.5133 100.937 30.5924C102.453 28.8591 103.266 26.4216 103.537 24.1466C103.699 22.3049 103.537 20.3549 102.995 18.6216C101.966 15.5341 99.2034 12.5549 96.3867 14.1258C92.2701 16.4008 91.0243 23.1716 92.3784 27.6674Z"
-                                fill="#005efc" />
+                                fill="#feca57" />
                               <path
                                 d="M135.667 44.6216C132.526 45.4341 128.951 45.2716 125.971 43.9716C123.371 42.8883 121.096 40.7758 119.634 38.3924C118.063 35.7924 117.142 32.7591 116.817 29.7258C116.33 24.8508 116.763 19.9216 116.926 14.9924C117.034 12.9883 116.817 10.93 117.251 8.97995C117.521 7.95078 118.009 6.86745 118.821 6.16328C119.471 5.56745 120.446 5.35078 121.367 5.35078C122.396 5.29662 126.026 5.62161 126.946 6.05495C127.38 6.27162 127.759 6.59661 128.03 7.02995C128.463 7.67995 128.626 8.49245 128.734 9.19662C128.896 10.2799 128.896 11.3091 128.896 12.3924C128.896 15.4799 128.571 18.6216 128.301 21.7091C128.138 23.9299 128.03 26.2591 128.896 28.2633C129.763 30.2674 132.201 31.2424 134.042 30.0508C135.017 29.4549 135.721 28.3716 136.155 27.2883C136.805 25.6091 137.021 23.7674 137.076 21.9799C137.13 18.6216 136.534 15.3174 136.426 11.9591C136.371 10.93 136.209 9.90078 136.371 8.81745C136.426 8.27578 136.588 7.62578 137.021 7.19245C137.346 6.81328 137.888 6.54245 138.376 6.37995C139.838 5.89245 144.388 5.29662 145.796 5.83828C146.338 6.05495 146.88 6.48828 147.151 6.97578C147.53 7.73412 147.746 11.0383 147.801 11.905C148.017 14.7216 148.071 17.5383 148.18 20.4091C148.288 25.3924 147.692 30.5924 145.742 35.1966C144.713 37.6883 143.142 40.0716 141.084 41.805C139.567 43.1591 137.617 44.1341 135.667 44.6216Z"
-                                fill="#005efc" />
+                                fill="#feca57" />
                               <path
                                 d="M167.336 45.0008C165.765 45.5966 160.077 45.5424 158.452 45.2174C157.694 45.1091 156.936 44.6216 156.557 43.9174C156.286 43.3758 156.177 42.7258 156.069 42.1299C155.852 40.2883 155.961 38.3924 156.015 36.5508C156.177 29.6174 156.827 22.6841 156.936 15.8049C155.798 15.8049 154.661 15.9133 153.523 15.9133C152.819 15.9674 152.007 15.9133 151.357 15.5883C150.707 15.2091 150.327 14.5049 150.111 13.8008C149.677 11.905 149.677 9.84661 150.057 7.89661C150.165 7.35495 150.436 6.70495 150.923 6.37995C151.627 5.89245 152.548 5.83828 153.415 5.78412C156.123 5.67578 158.832 5.83828 161.54 5.94662C162.19 5.94662 166.09 5.94662 166.794 5.94662C167.823 5.94662 172.427 5.89245 173.402 6.21745C173.836 6.32578 174.269 6.48828 174.648 6.75912C175.19 7.19245 175.569 7.73412 175.732 8.43828C176.111 10.0091 175.84 13.5841 174.757 14.7216C174.377 15.2091 173.782 15.4799 173.186 15.5883C171.886 15.8591 170.532 15.7508 169.232 15.5883C169.232 18.3508 169.502 35.4133 169.502 38.1758C169.502 39.6924 169.502 41.2091 169.232 42.7258C169.015 43.8633 168.365 44.6216 167.336 45.0008Z"
-                                fill="#005efc" />
+                                fill="#feca57" />
                               <path
                                 d="M232.182 44.6216C230.719 45.7591 228.607 45.8133 226.819 45.7049C225.628 45.5966 224.273 45.4883 223.298 44.7299C222.594 44.2424 222.269 43.2675 222.107 42.4008C221.673 39.6383 222.432 25.5549 222.486 22.7383C221.836 24.6883 221.078 26.6924 219.832 28.3174C218.803 29.6716 217.34 30.8091 215.769 31.2966C214.957 31.5674 214.144 31.6758 213.278 31.5674C212.194 31.4591 211.111 30.8633 210.244 30.1049C208.294 28.4799 207.048 26.0424 206.182 23.7133C206.128 26.5841 206.398 40.0716 205.64 42.8341C205.423 43.6466 204.882 44.4591 204.123 44.8924C203.148 45.5424 201.848 45.6508 200.711 45.7049C199.086 45.7591 197.19 45.5966 195.998 44.5133C195.023 43.6466 194.698 42.1299 194.482 40.8299C193.778 36.4424 194.103 32.0008 194.319 27.5591C194.373 25.5008 194.373 23.4966 194.428 21.4383C194.536 18.7841 194.698 16.1299 195.078 13.5299C195.294 12.0674 195.511 10.6049 195.944 9.19662C196.161 8.43828 196.432 7.67995 196.919 7.02995C197.353 6.43412 198.003 6.00078 198.707 5.72995C200.169 5.13411 201.848 5.24245 203.419 5.40495C204.394 5.45912 205.478 5.51328 206.29 6.05495C207.319 6.75912 207.915 8.05912 208.078 9.30495C208.511 12.0133 209.053 14.6675 209.973 17.2674C210.569 18.8924 211.923 22.0883 213.711 22.3049C215.336 22.4674 216.636 20.0299 217.286 18.5133C218.207 16.455 218.803 14.2341 219.29 12.0133C219.723 10.1174 220.428 7.95078 221.998 6.86745C223.028 6.10911 224.328 5.89245 225.573 5.78412C226.169 5.72995 229.094 5.72995 229.69 5.78412C230.286 5.83828 230.936 6.05495 231.478 6.37995C231.857 6.70495 232.723 7.84245 232.832 8.32995C233.048 9.41328 233.157 14.9383 233.157 16.0216C233.319 21.4383 233.373 26.8549 233.59 32.2716C233.698 35.3591 234.619 42.7258 232.182 44.6216Z"
-                                fill="#005efc" />
+                                fill="#feca57" />
                               <path
                                 d="M259.084 44.7841C257.243 45.2716 248.468 45.6508 246.518 45.6508C245.109 45.6508 243.647 45.6508 242.239 45.4341C241.318 45.3258 240.343 45.1633 239.53 44.6758C238.989 44.2966 238.555 43.7549 238.339 43.1591C237.905 42.1299 237.743 40.9925 237.689 39.8549C237.634 38.3383 237.743 36.8216 237.851 35.2508C238.339 29.2924 238.609 23.3341 238.609 17.3758C238.609 14.9924 237.689 8.81745 239.422 7.24662C239.909 6.86745 240.559 6.70495 241.155 6.59661C243.539 6.21745 254.589 5.62161 256.972 5.89245C257.784 6.00078 258.705 6.21745 259.355 6.75912C259.951 7.24662 260.276 8.05912 260.439 8.81745C260.709 10.6591 260.872 13.9633 259.301 14.8299C257.893 15.6424 251.88 14.9383 250.309 15.1008C250.147 15.1008 249.93 15.1008 249.822 15.2633C249.768 15.3716 249.714 15.9133 249.659 16.0758C249.605 16.7258 249.389 19.1633 249.659 19.8133C249.984 20.6799 251.772 20.4091 252.693 20.3549C253.505 20.3549 256.755 20.1924 257.514 20.5174C257.947 20.7341 258.326 21.1133 258.543 21.4924C258.868 22.1966 258.976 22.955 259.03 23.7133C259.084 24.5258 259.193 25.3924 259.03 26.2591C258.922 26.8549 258.651 27.5049 258.164 27.8841C257.622 28.2633 256.864 28.4258 256.159 28.5341C255.239 28.6966 254.209 28.6966 253.289 28.6424C252.53 28.5883 250.472 28.3174 249.876 28.8049C249.443 29.1299 249.389 30.5383 249.389 31.08C249.389 32.1091 249.659 33.7883 250.58 34.1133C251.014 34.2758 251.501 34.3299 251.989 34.3299C254.101 34.3841 256.268 33.9508 258.38 33.9508C258.814 33.9508 259.301 33.8966 259.68 34.0591C260.601 34.4383 261.197 36.3883 261.359 37.3633C261.522 38.5549 261.576 39.7466 261.414 40.9383C261.251 41.9674 261.034 42.9966 260.439 43.8091C260.114 44.2424 259.626 44.6216 259.084 44.7841Z"
-                                fill="#005efc" />
+                                fill="#feca57" />
                               <path
                                 d="M17.4892 46.1924C16.785 46.3008 13.7517 45.9216 13.0475 45.8133C11.91 45.5424 9.36419 44.6758 8.87669 43.5924C8.60586 42.8883 8.76836 42.0216 8.82252 41.2633C9.63502 34.1133 12.235 27.3425 14.0225 20.4091C14.5642 18.4591 15.2142 16.5091 15.8642 14.6133C16.5142 12.7716 17.2184 10.9841 18.1392 9.30495C18.6267 8.38411 19.2225 7.51745 20.035 6.92162C22.0392 5.45912 24.7475 4.86328 27.185 4.86328C29.0809 4.91745 30.9767 5.13411 32.71 5.78412C33.8475 6.21745 34.985 6.92162 35.7434 7.89661C36.4475 8.81745 36.8809 9.90078 37.26 10.9841C38.0184 13.3133 40.4559 26.4758 40.9434 28.8591C41.9184 33.1924 43.5975 37.5799 43.2184 42.0216C43.11 43.1049 42.5684 44.2424 41.7017 44.8924C41.1059 45.3799 40.3475 45.5966 39.5892 45.7049C38.1267 45.9216 33.36 46.4633 32.0059 45.7591C30.6517 45.055 30.435 41.6966 30.2725 40.18C27.3475 39.855 24.4225 39.8549 21.4975 39.9091C21.1725 41.2091 20.035 44.8925 19.0059 45.6508C18.5725 45.9758 18.0309 46.1383 17.4892 46.1924ZM24.2059 24.8508C23.5017 27.6133 22.96 30.3758 22.5267 33.1383C24.9642 32.9758 27.3475 32.8674 29.785 32.9216C29.6225 31.0258 28.5392 21.5466 28.0517 19.7049C27.9434 19.1633 27.6184 18.2966 27.0225 18.3508C26.4809 18.3508 25.9392 19.4341 25.7225 19.9758C25.0184 21.5466 24.585 23.2258 24.2059 24.8508Z"
                                 stroke="#201A17" stroke-width="5" mask="url(#path-1-outside-1_2754_3686)" />
@@ -739,17 +765,17 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                     data-autoplay="true" data-loop="true" data-wf-ignore="true"
                     class="about_image is-video w-background-video w-background-video-atom"></div>
                   <img id="baae05fd-2810-8b85-9fc0-8bccf1bcd633-video" src="/logo2.png"
-                    style="background-color: #feca57;" />
+                    style="background-color:  #2e86de;" />
                 </div>
 
                 <div id="w-node-_8bb6bb42-00ee-c3e0-f34a-5046758a8d7f-80c30583" class="about_info">
                   <div class="_3d-box is-about">
 
                     <div class="_3d_cream">
-                      <div class="about_wrap" style="display: inline;background-color: #feca57;">
+                      <div class="about_wrap" style="display: inline;background-color:  #2e86de;">
                         <img src="/body/toshi.png" alt="" style="max-width: 150px;" srcset="">
                         <p class="about_p">
-                          <span style="color: #4d65ff;">$TOSHI</span> → Covers one-quarter (1/4) of the head, adding to
+                          <span style="color: #feca57;">$TOSHI</span> → Covers one-quarter (1/4) of the head, adding to
                           the meme personality.
                         </p>
 
@@ -762,10 +788,10 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                   <div class="_3d-box is-about">
 
                     <div class="_3d_cream">
-                      <div class="about_wrap" style="display: inline;background-color: #feca57;">
+                      <div class="about_wrap" style="display: inline;background-color:  #2e86de;">
                         <img src="/body/mog.png" alt="" style="max-width: 150px;" srcset="">
                         <p class="about_p">
-                          <span style="color: #4d65ff;">$MOG</span> → Covers the remaining one-quarter (1/4) of the
+                          <span style="color: #feca57;">$MOG</span> → Covers the remaining one-quarter (1/4) of the
                           head, completing the Mog-style look.
                         </p>
                       </div>
@@ -777,10 +803,10 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                   <div class="_3d-box is-about">
 
                     <div class="_3d_cream">
-                      <div class="about_wrap" style="display: inline;background-color: #feca57;">
+                      <div class="about_wrap" style="display: inline;background-color:  #2e86de;">
                         <img src="/body/brett.png" alt="" style="max-width: 150px;" srcset="">
                         <p class="about_p">
-                          <span style="color: #4d65ff;">$BRETT</span> → Forms half (1/2) of the head, giving it that
+                          <span style="color: #feca57;">$BRETT</span> → Forms half (1/2) of the head, giving it that
                           Mogger-style expression.
                         </p>
                       </div>
@@ -792,10 +818,10 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                   <div class="_3d-box is-about">
 
                     <div class="_3d_cream">
-                      <div class="about_wrap" style="display: inline;background-color: #feca57">
+                      <div class="about_wrap" style="display: inline;background-color:  #2e86de">
                         <img src="/body/aerobud.png" alt="" style="max-width: 150px;" srcset="">
                         <p class="about_p">
-                          <span style="color: #4d65ff;">$AEROBUD</span> → Holds the basketball, representing skill,
+                          <span style="color: #feca57;">$AEROBUD</span> → Holds the basketball, representing skill,
                           agility, and degen energy.
 
                         </p>
@@ -808,10 +834,10 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                   <div class="_3d-box is-about">
 
                     <div class="_3d_cream">
-                      <div class="about_wrap" style="display: inline;background-color: #feca57">
+                      <div class="about_wrap" style="display: inline;background-color:  #2e86de">
                         <img src="/body/ski.png" alt="" style="max-width: 150px;" srcset="">
                         <p class="about_p">
-                          <span style="color: #4d65ff;">$SKI</span> → Tattoo on the chest, symbolizing a fearless and
+                          <span style="color: #feca57;">$SKI</span> → Tattoo on the chest, symbolizing a fearless and
                           dominant meme presence.
                         </p>
                       </div>
@@ -823,10 +849,10 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                   <div class="_3d-box is-about">
 
                     <div class="_3d_cream">
-                      <div class="about_wrap" style="display: inline;background-color: #feca57">
+                      <div class="about_wrap" style="display: inline;background-color:  #2e86de">
                         <img src="/body/elon.png" alt="" style="max-width: 150px;" srcset="">
                         <p class="about_p">
-                          <span style="color: #4d65ff;">$ELON</span> → Another tattoo on the chest, signifying the
+                          <span style="color: #feca57;">$ELON</span> → Another tattoo on the chest, signifying the
                           influence of Elon-based memes in the
                           Base ecosystem.
                         </p>
@@ -845,10 +871,10 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
                 <div class="_3d-box is-about">
 
                   <div class="_3d_cream">
-                    <div class="about_wrap" style="display: inline;background-color:#feca57">
+                    <div class="about_wrap" style="display: inline;background-color: #2e86de">
                       <img src="/body/doginme.png" alt="" style="max-width: 150px;" srcset="">
                       <p class="about_p">
-                        <span style="color: #4d65ff;">$DOGINME</span> → Forms the strong, muscular body, showcasing the
+                        <span style="color: #feca57;">$DOGINME</span> → Forms the strong, muscular body, showcasing the
                         power and resilience of meme
                         culture on Base.
                       </p>
@@ -3024,42 +3050,48 @@ Uncomment this CSS to use it in the project. Leave this message for future hand-
       <div class="padding-global is-footer">
         <div class="container-large">
           <div data-w-id="7131af41-571f-9664-318c-c52d5994a080" style="opacity: 0" class="footer_content">
-            <a href="chartlink" target="_blank" class="dex-tools w-inline-block"><img
+            <!-- <a href="chartlink" target="_blank" class="dex-tools w-inline-block"><img
                 src="https://cdn.prod.website-files.com/66cad9e252e8ce4f80c30587/66e0605682658d15b90559c4_DEXTools_%20white%201.png"
-                loading="lazy" width="129" alt="" class="dex-tools_img" /></a>
-            <div style="color: white;" class="ca_text">
-              ca:
-              0x0000000000000000
+                loading="lazy" width="129" alt="" class="dex-tools_img" /></a> -->
+            <div class="socials">
+              <a style="background-color: black; border-radius: 50%;" href="https://t.me/BasedTeamOnBase" target="_blank"><img src="./tg.png" alt="Facebook"></a>
+              <a style="background-color: black; border-radius: 50%;" href="https://x.com/BasedTeamOnBase" target="_blank"><img src="./x.png" alt="Twitter"></a>
+              <a style="background-color: black; border-radius: 50%;" href="dexslink" target="_blank"><img src="./Dexscreener.png" alt="Instagram"></a>
+              <a style="background-color: white; border-radius: 50%;" style="background-color: white; border-radius: 50%;" href="chartlink" target="_blank"><img src="./dexto.png" alt="LinkedIn"></a>
+              <a style="background-color: white; border-radius: 50%;" href="buylink" target="_blank"><img src="./uni.png" alt="LinkedIn"></a>
             </div>
+            ca:
+            0x0000000000000000
           </div>
         </div>
       </div>
-      <img src="/bottom-l.png" loading="lazy" width="334" class="footer_mao-l"
-        data-w-id="c67dc682-d3a6-636c-eb73-e8f971807aee" alt="" />
-      <!-- <video width="500" height="500" autoplay="" loop="" muted="" >
+  </div>
+  <img src="/bottom-l.png" loading="lazy" width="334" class="footer_mao-l"
+    data-w-id="c67dc682-d3a6-636c-eb73-e8f971807aee" alt="" />
+  <!-- <video width="500" height="500" autoplay="" loop="" muted="" >
         <source src="/vid/gm.webm" type="video/mp4" />
         <source src="movie.ogg" type="video/ogg" />
         Your browser does not support the video tag.         
       </video> -->
-      <img src="/bottom-r.png" loading="lazy" width="309" data-w-id="76b6e415-d9fe-e82f-9327-1f62225a9c2b" alt=""
-        class="footer_mao-r" />
-      <!-- <video width="500" height="500" autoplay="" loop="" muted="" >
+  <img src="/bottom-r.png" loading="lazy" width="309" data-w-id="76b6e415-d9fe-e82f-9327-1f62225a9c2b" alt=""
+    class="footer_mao-r" />
+  <!-- <video width="500" height="500" autoplay="" loop="" muted="" >
         <source src="/vid/middle finger.webm" type="video/mp4" />
         <source src="movie.ogg" type="video/ogg" />
         Your browser does not support the video tag.         
       </video> -->
-    </footer>
-    <div class="disclaimer">
-      <div class="padding-global">
-        <div class="container-large">
-          <div class="disclaimer_content">
-            <div class="disclaimer_txt" style="color: white;">
-              © BASED TEAM 2025. All Rights Reserved.
-            </div>
+  </footer>
+  <div class="disclaimer">
+    <div class="padding-global">
+      <div class="container-large">
+        <div class="disclaimer_content">
+          <div class="disclaimer_txt" style="color: white;">
+            © BASED TEAM 2025. All Rights Reserved.
           </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66cad9e252e8ce4f80c30587"
     type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
